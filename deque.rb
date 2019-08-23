@@ -25,6 +25,10 @@ class Node
         @last = @last.next_node
       end
       
+      def popFront
+        @first = @first.next_node
+      end
       
+     
   end
   
