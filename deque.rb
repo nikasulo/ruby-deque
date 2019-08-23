@@ -33,6 +33,12 @@ class Node
         @last = @last.prev_node if @last != @first
       end
       
+      def topFront
+        @first.value
+      end
       
+      def topBack
+        @last.value
+      end
   end
   
