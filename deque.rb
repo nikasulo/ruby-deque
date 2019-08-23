@@ -8,4 +8,11 @@ class Node
     end
   end
   
+  class Deque
+    def initialize
+      @first = nil
+    end
+    
+   
+  end
   
