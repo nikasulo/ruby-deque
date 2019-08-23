@@ -25,6 +25,20 @@ class Node
         @last = @last.next_node
       end
       
+      def popFront
+        @first = @first.next_node
+      end
       
+      def popBack
+        @last = @last.prev_node if @last != @first
+      end
+      
+      def topFront
+        @first.value
+      end
+      
+      def topBack
+        @last.value
+      end
   end
   
