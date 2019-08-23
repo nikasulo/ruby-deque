@@ -13,6 +13,12 @@ class Node
       @first = nil
     end
     
-   
+    def pushFront(number)
+        @first = Node.new(number, @first)
+        @last = @first if @last.nil?
+        @first.next_node.prev_node = @first if @first.next_node
+      end
+      
+      
   end
   
