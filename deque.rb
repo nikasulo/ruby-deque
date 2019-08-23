@@ -29,6 +29,10 @@ class Node
         @first = @first.next_node
       end
       
-     
+      def popBack
+        @last = @last.prev_node if @last != @first
+      end
+      
+      
   end
   
