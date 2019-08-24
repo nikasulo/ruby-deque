@@ -1,7 +1,7 @@
 # Implementation of a Deque in Ruby
 #### This is an implementation of a deque which is an abstract data structure
 
-### Description
+## Description
 A Deque is an abstract data structure that offers a lot of benefits in terms of time complexity. 
 * It allows you remove items from its front of it in O(n) time.
 * It allows you remove items from its rear in O(n) time.
